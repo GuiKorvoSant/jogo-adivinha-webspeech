@@ -15,7 +15,7 @@ function onSpeak(event) {
         <div>Você disse:</div>
         <span class="box">${chute}</span>
     `
-    validaChute();
+    verificaChute();
 }
 
 recognition.addEventListener("end", () => recognition.start());
